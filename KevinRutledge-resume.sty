@@ -1,0 +1,195 @@
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+\begin{center}
+    \textbf{\Huge \scshape Kevin Rutledge} \\ \vspace{1pt}
+    \small 408-656-5225 $|$ \href{mailto:kevin.rutledge.89@gmail.com}{\underline{kevin.rutledge.89@gmail.com}} $|$ 
+    \href{https://linkedin.com/in/kevinrutledge89}{\underline{linkedin.com/in/kevinrutledge89}} $|$
+    \href{https://github.com/kevinrutledge}{\underline{github.com/kevinrutledge}}
+\end{center}
+
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {De Anza College}{Sunnyvale, CA}
+      {Associates of Science in Computer Science; Programming in C/C++ Certificate}{Apr. 2023 -- June 2024}
+    \resumeSubheading
+      {General Assembly}{Remote}
+      {Data Analytics Immersive}{Aug. 2022 -- Nov. 2022}
+    \resumeSubheading
+      {San Jose State University}{San Jose, CA}
+      {Coursework in Kinesiology, Rehabilitation Science}{Aug. 2020 -- May 2022}
+  \resumeSubHeadingListEnd
+
+
+%-----------PROJECTS-----------
+\section{Projects}
+    \resumeSubHeadingListStart
+    
+        \resumeProjectHeading
+        {\textbf{Itty Bitty Airfreight (IBA)} $|$ \emph{C++, Object-Oriented Programming}}{Sep. 2023 -- Dec. 2023}
+            \resumeItemListStart
+                \resumeItem{Engineered a C++ cargo management system for Boeing 737 and 767 aircrafts.}
+                \resumeItem{Implemented abstract base class with pure virtual functions and derived classes for specific aircraft types.}
+                \resumeItem{Enabled data processing from files with strict adherence to weight limits.}
+                \resumeItem{Applied exception handling for load compliance and aircraft capacity checks.}
+                \resumeItem{Utilized forward lists data structure to efficiently manage and store cargo data for processing.}
+            \resumeItemListEnd
+            
+        \resumeProjectHeading
+        {\textbf{Wind Turbine Investment Portfolio} $|$ \emph{Python, Pandas, Matplotlib, Web Scraping}}{Oct. 2022 -- Oct. 2022}
+            \resumeItemListStart
+                \resumeItem{Directed Python-based data analysis and Matplotlib visualization for a strategic wind turbine investment guide.}
+                \resumeItem{Orchestrated an Agile team in extracting and refining energy sector data, underpinning key investment insights.}
+                \resumeItem{Employed web scraping to augment the dataset, ensuring a robust investment portfolio analysis.}
+                \resumeItem{Crafted an investor deck that pinpointed optimal stable and high-growth wind energy firms.}
+            \resumeItemListEnd
+            
+        \resumeProjectHeading
+        {\textbf{Bay Wheels Covid-19 Analysis} $|$ \emph{SQL, PostgreSQL, Tableau, Big Data}}{Sep. 2022 -- Oct. 2022}
+        \resumeItemListStart
+            \resumeItem{Conducted an 8M+ record data analysis to uncover ridership trends pre- and post-quarantine.}
+            \resumeItem{Developed a PostgreSQL database and crafted Tableau visualizations to decode data patterns.}
+            \resumeItem{Identified critical patterns in user behavior, seasonality, and year-over-year changes to inform business strategies.}
+            \resumeItem{Created Tableau dashboards for dynamic ridership pattern illustration across stations.}
+        \resumeItemListEnd
+
+        \resumeProjectHeading
+        {\textbf{Airbnb Market Analysis \& Revenue Opportunities} $|$ \emph{Excel, Power BI}}{Aug. 2022 -- Sep. 2022}
+            \resumeItemListStart
+                \resumeItem{Analyzed market data using Power BI and Excel (Index Match, XLookup, VLookup, Pivot Tables) for client.}
+                \resumeItem{Manipulated data in Excel, employing array formulas and dynamic models for predictive insights.}
+                \resumeItem{Visualized findings in Power BI, enabling data-driven client revenue opportunities.}
+            \resumeItemListEnd
+        
+    \resumeSubHeadingListEnd
+
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+    \resumeSubHeadingListStart
+
+        \resumeSubheading
+        {Milestone Technologies}{Mountain View, CA}
+        {Junior Software Quality Assurance Engineer}{Aug. 2018 -- Sep. 2019}
+            \resumeItemListStart
+                \resumeItem{Mastered logistics software needs, ensuring accuracy in inventory and supply chain management.}
+                \resumeItem{Developed QA strategies and automated Python tests for logistics functionalities using Pytest and PyUnit.}
+                \resumeItem{Led performance and integration testing to maintain software efficiency in logistics operations.}
+                \resumeItem{Managed bug tracking and resolution, aligning software with logistics user needs.}
+        \resumeItemListEnd
+
+        \resumeSubheading
+        {Milestone Technologies}{Mountain View, CA}
+        {Warehouse Logistics Specialist}{Mar. 2014 -- Aug. 2018}
+            \resumeItemListStart
+                \resumeItem{Managed inventory and optimized warehouse operations using advanced Warehouse Management Systems.}
+                \resumeItem{Applied data analytics and big data tools to forecast demand and optimize stock levels.}
+                \resumeItem{Implemented RFID/barcode scanning and cloud solutions for inventory and efficiency.}
+                \resumeItem{Oversaw AGVs and IoT integration to streamline warehouse operations.}
+            \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+
+%-----------PROGRAMMING SKILLS-----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Languages}{: Java, Python, C/C++, SQL (Postgres), JavaScript, HTML/CSS} \\
+     \textbf{Frameworks}{: Pytest, PyUnit, Selenium, JUnit, Google Test} \\
+     \textbf{Developer Tools}{: Git, Docker, Google Cloud Platform, VS Code, Visual Studio, PyCharm, IntelliJ, Eclipse} \\
+     \textbf{Libraries}{: Pandas, NumPy, Matplotlib, Seaborn}
+    }}
+ \end{itemize}
+
+
+%-------------------------------------------
+\end{document}
