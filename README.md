@@ -25,7 +25,7 @@ Feel free to use this template for your own resume. You can modify the `.tex` fi
 
 ## License
 
-This project is open-sourced under the MIT License. See the LICENSE file for more details.
+This project is open-sourced under the Creative Commons License. See the LICENSE file for more details.
 
 ## Contact
 
