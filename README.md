@@ -1,36 +1,32 @@
 # Kevin Rutledge's Resume
 
-Welcome to the GitHub repository where I host my professional resume. This document is written in LaTeX, a high-quality typesetting system; it includes my educational background, work experience, projects, and technical skills.
+This repository contains the LaTeX source code for my professional resume. It's designed to be clean, easy to read, and modifiable for anyone's use.
 
-## Prerequisites
+## Repository Contents
 
-To compile and view the resume, you will need a LaTeX distribution. For most users, I recommend installing [TeX Live](https://www.tug.org/texlive/) for Linux and Windows, or [MacTeX](http://www.tug.org/mactex/) for macOS. These distributions include the LaTeX base and the necessary compilers and packages.
+- `KevinRutledge-resume.tex`: The main LaTeX file for the resume.
+- `glyphtounicode.tex`: A supplementary LaTeX file to ensure proper encoding of glyphs in the generated PDF.
 
-## Compiling the Resume
+## How to Use
 
-After installing a LaTeX distribution, you can compile the resume to a PDF using the following steps:
+To compile the resume to a PDF, you will need a LaTeX distribution installed on your system. For example, you can use [TeX Live](https://tug.org/texlive/) on Unix/Linux or [MikTeX](https://miktex.org/) on Windows.
 
-1. **Clone the Repository**:
-   ```bash
-   git clone https://github.com/kevinrutledge/KevinRutledge-resume.git
-   cd KevinRutledge-resume
-   ```
+### Compilation Steps
 
-2. **Compile the LaTeX Document**:
-   * Run the following command in the terminal:
-   ```lua
-   pdflatex resume.tex
-   ```
-   * This will generate a **`resume.pdf`** file from the **`resume.tex`** source.
+1. Clone the repository to your local machine.
+2. Navigate to the repository directory.
+3. Run `pdflatex KevinRutledge-resume.tex` in your terminal or command prompt.
 
-## Viewing the Resume
+This will generate a PDF version of the resume in the same directory.
 
- Once compiled, the **`resume.pdf`** file can be opened with any standard PDF viewer:
+## Customization
 
-* On Windows: Adobe Reader, Foxit Reader, or Microsoft Edge.
-* On macOS: Preview or Adobe Reader.
-* On Linux: Evince, Okular, or any other PDF viewer.
+Feel free to use this template for your own resume. You can modify the `.tex` file as needed to fit your personal information and experiences. Be sure to check and update the `glyphtounicode.tex` file if you're adding new symbols or fonts that are not initially covered.
+
+## License
+
+This project is open-sourced under the MIT License. See the LICENSE file for more details.
 
 ## Contact
 
-For any additional questions or if you'd like to get in touch, please contact me at [kevin.rutledge.89@gmail.com](mailto:kevin.rutledge.89@gmail.com) or via my [LinkedIn profile](https://linkedin.com/in/kevinrutledge89).
+If you have any questions or feedback, please feel free to contact me at [kevin.rutledge.89@gmail.com](mailto:kevin.rutledge.89@gmail.com).
